@@ -1,0 +1,93 @@
+body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display";
+}
+
+.order_summary {
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);;
+    width: 21rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.order_sum_hero {
+    width: 100%;
+}
+.order_summary h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    width: fit-content;
+    margin: 0 auto;
+}
+.order_summary p{
+    color: hsl(224, 23%, 55%);
+}
+.sale_pitch{
+    max-width: 30ch;
+    margin: 0 auto;
+}
+
+.prod_details {
+    background-color: hsl(225, 100%, 88%);
+    border-radius: 0.5rem;
+    border-spacing: 1rem 0;
+    width: fit-content;
+    margin: 2rem auto 0 auto;
+    position: relative;
+}
+.prod_details img {
+    padding-right: 0.5rem;
+    width: 2.5rem;
+}
+.details_text strong{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    margin: 0;
+    padding: 0 2rem 0 0;
+    text-align: left;
+}
+
+.details_text p{
+    margin: 0;
+    padding: 0 2rem 0 0;
+    text-align: left;
+}
+.change{
+    color: hsl(225, 100%, 54%);
+}
+.change:hover {
+    text-decoration: none;
+    color: hsl(223, 47%, 43%);
+}
+
+.confirm_payment{
+    display: block;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 0.3rem;
+    color: hsl(225, 100%, 98%);
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    width: fit-content;
+    margin: 3rem auto 1rem auto;
+    text-decoration: none;
+}
+.confirm_payment:hover{
+    background-color: hsl(245, 75%, 72%);
+}
+.cancel_payment{
+    display: block;
+    width: fit-content;
+    color: hsl(224, 23%, 55%);
+    margin: 0 auto;
+    text-decoration: none;
+    padding-bottom: 2rem;
+}
+
+.cancel_payment:hover{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
